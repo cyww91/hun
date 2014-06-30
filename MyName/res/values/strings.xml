@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyName</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_main_menu_screen">MainMenuScreen</string>
+    <string name="title_activity_info_screen">InfoScreen</string>
+    <string name="title_activity_join_screen">JoinScreen</string>
+    <string name="title_activity_mypage_screen">MypageScreen</string>
+    <string name="title_activity_rename_screen">RenameScreen</string>
+    <string name="title_activity_card_setting_screen">CardSettingScreen</string>
+    <string name="title_activity_setting_screen">SettingScreen</string>
+    <string name="title_activity_modify_screen">ModifyScreen</string>
+    <string name="title_activity_calendar_screen">CalendarScreen</string>
+
+</resources>

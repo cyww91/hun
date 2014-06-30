@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roha.roha.MainMenuScreen"
+    tools:ignore="MergeRootFrame" >
+<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/main"/>
+
+     <ImageView
+         android:id="@+id/button_01"
+         android:layout_width="80dp"
+         android:layout_height="20dp" 
+         android:layout_marginLeft="60dp"
+         android:layout_marginTop="520dp"
+         android:background="@drawable/button_01"/>
+     
+      <ImageView
+         android:id="@+id/button_02"
+         android:layout_width="80dp"
+         android:layout_height="20dp" 
+         android:layout_marginLeft="210dp"
+         android:layout_marginTop="520dp"
+         android:background="@drawable/button_02"/>
+      
+      <ImageView
+         android:id="@+id/button_03"
+         android:layout_width="30dp"
+         android:layout_height="30dp" 
+         android:layout_marginLeft="285dp"
+         android:layout_marginTop="80dp"
+         android:background="@drawable/button_03"/>
+
+      <EditText
+          android:id="@+id/editText1"
+          android:layout_width="240dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="30dp"
+         android:layout_marginTop="68dp"
+          android:ems="10"
+          android:inputType="textPersonName" >
+
+          <requestFocus />
+      </EditText>
+
+</FrameLayout>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vip.myname"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vip.myname.LoadingScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vip.myname.LoginScreen"
+            android:label="@string/title_activity_login_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.MainMenuScreen"
+            android:label="@string/title_activity_main_menu_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.InfoScreen"
+            android:label="@string/title_activity_info_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.JoinScreen"
+            android:label="@string/title_activity_join_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.MypageScreen"
+            android:label="@string/title_activity_mypage_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.RenameScreen"
+            android:label="@string/title_activity_rename_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.CardSettingScreen"
+            android:label="@string/title_activity_card_setting_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.SettingScreen"
+            android:label="@string/title_activity_setting_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.ModifyScreen"
+            android:label="@string/title_activity_modify_screen" >
+        </activity>
+        <activity
+            android:name="com.vip.myname.CalendarScreen"
+            android:label="@string/title_activity_calendar_screen" >
+        </activity>
+    </application>
+
+</manifest>

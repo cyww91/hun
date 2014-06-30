@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cafe"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CafeScreen" >
+
+<Button
+        android:id="@+id/cafe_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="20dp"
+        android:text="" 
+        android:background="@drawable/cafe_button2"/>
+    
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="80dp"
+        android:text="" 
+        android:background="@drawable/profile_button"/>
+    
+    <Button
+        android:id="@+id/mail_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="145dp"
+        android:text="" 
+        android:background="@drawable/mail_button"/>
+    
+    <Button
+        android:id="@+id/friend_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="205dp"
+        android:text="" 
+        android:background="@drawable/friend_button"/>
+    
+    <Button
+        android:id="@+id/setting_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="265dp"
+        android:text="" 
+        android:background="@drawable/setting_button"/>
+
+    <Button
+        android:id="@+id/list_button1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="452dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/list_button" />
+    
+    <Button
+        android:id="@+id/list_button2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="452dp"
+        android:layout_marginLeft="270dp"
+        android:background="@drawable/list_button" />
+    
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="70dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="452dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/find_button" />
+    
+    <Button
+        android:id="@+id/open_button"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="62dp"
+        android:background="@drawable/open_button" />
+
+    <Spinner
+        android1:id="@+id/spinner1"
+        android1:layout_width="155dp"
+        android1:layout_height="40dp"
+        android1:layout_marginTop="95dp"
+        android:layout_marginLeft="10dp" />
+    
+     <Spinner
+        android1:id="@+id/spinner2"
+        android1:layout_width="140dp"
+        android1:layout_height="40dp"
+        android1:layout_marginTop="95dp"
+        android:layout_marginLeft="162dp" />
+     
+      <ImageView
+        android1:id="@+id/oncafe"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"/>
+
+    
+
+     <ScrollView
+         android1:id="@+id/scrollView1"
+         android1:layout_width="wrap_content"
+         android1:layout_height="280dp"
+         android1:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp">
+
+         <LinearLayout
+             android1:layout_width="match_parent"
+             android1:layout_height="match_parent"
+             android1:orientation="vertical" >
+             
+        <ImageView
+        android1:id="@+id/cafelist1"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"/>
+        
+         <ImageView
+        android1:id="@+id/cafelist2"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+         
+          <ImageView
+        android1:id="@+id/cafelist3"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+          
+           <ImageView
+        android1:id="@+id/cafelist4"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp" />
+           
+            <ImageView
+        android1:id="@+id/cafelist5"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp" />      
+         </LinearLayout>
+         
+         
+     </ScrollView>
+     
+         <ImageView
+        android1:id="@+id/cafe"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp" /> 
+        
+         <ImageView
+        android1:id="@+id/map"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="340dp" /> 
+        
+         <ImageView
+        android1:id="@+id/cafe_map"
+        android:layout_width="290dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+   />
+         
+          <ImageView
+        android1:id="@+id/cafe_close"
+       android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="62dp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cafe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cafe.MainScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cafe.MainMenuScreen"
+            android:label="@string/title_activity_main_menu_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.CafeScreen"
+            android:label="@string/title_activity_cafe_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.ProfileScreen"
+            android:label="@string/title_activity_profile_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.MailScreen"
+            android:label="@string/title_activity_mail_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.FriendScreen"
+            android:label="@string/title_activity_friend_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.SettingScreen"
+            android:label="@string/title_activity_setting_screen" >
+        </activity>
+        <activity
+            android:name="com.example.cafe.Icon"
+            android:label="@string/title_activity_icon" >
+        </activity>
+    </application>
+
+</manifest>

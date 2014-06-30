@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vip.myname.LoginScreen"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Name"
+        android:textSize="60dip" 
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디 : "
+        android:textSize="30dip"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="45dp" />
+    
+     <EditText
+         android:id="@+id/editText_id"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:textSize="20dip"
+         android:layout_marginTop="240dp"
+         android:layout_marginLeft="140dp" >
+
+         <requestFocus />
+     </EditText>
+    
+         
+         
+     <TextView
+         android:id="@+id/text_password"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="비밀번호 : "
+         android:textSize="30dip"
+         android:layout_marginTop="300dp"
+         android:layout_marginLeft="20dp" />
+
+     <EditText
+         android:id="@+id/editText_password"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:textSize="20dip"
+         android:layout_marginTop="290dp"
+         android:layout_marginLeft="140dp" >
+     </EditText>
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:text="로그인"
+         android:textSize="30dip"
+         android:layout_marginTop="240dp"
+         android:layout_marginLeft="260dp" />
+
+     <Button
+         android:id="@+id/button_join"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="회원가입"
+         android:textSize="30dip"
+         android:layout_marginTop="350dp"
+         android:layout_marginLeft="20dp" />
+
+     <CheckBox
+         android:id="@+id/checkBox1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="  자동로그인"
+         android:textSize="30dip"
+         android:layout_marginTop="360dp"
+         android:layout_marginLeft="160dp" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="네트워크형 스마트 명함"
+         android:textSize="20dip"
+         android:layout_marginTop="580dp"
+         android:layout_marginLeft="100dp" />
+
+</FrameLayout>
+

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.drawpaper.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dip"
+        android:gravity="center"
+        android:textSize="45dip"
+        android:text="릴레이툰"/>
+
+    
+      <Button 
+        android:id="@+id/draw_btn"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dip"
+        android:text="그리기"
+        />
+      
+    <Button 
+        android:id="@+id/end_btn"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dip"
+        android:layout_gravity="center"
+        android:textSize="30dip"
+        android:text="끝내기"
+        />
+  
+
+    
+
+</FrameLayout>
+

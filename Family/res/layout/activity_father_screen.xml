@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.family.family.FatherScreen"
+    tools:ignore="MergeRootFrame" >
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="150dp"
+       android:text="증 조"
+       android:textSize="15dip" />
+   
+     <Button
+       android:id="@+id/button2"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="150dp"
+       android:text="조  부"
+       android:textSize="15dip" />
+     
+      <Button
+       android:id="@+id/button3"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="10dp"
+       android:text="대왕고모"
+       android:textSize="15dip" />
+    
+      <Button
+       android:id="@+id/button4"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="300dp"
+       android:text="증조부"
+       android:textSize="15dip" />
+      
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="10dp"
+       android:text="진내종숙"
+       android:textSize="15dip" />
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="90dp"
+       android:text="고모"
+       android:textSize="15dip" />
+     
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="150dp"
+       android:text="부"
+       android:textSize="15dip" />
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="210dp"
+       android:text="백부"
+       android:textSize="15dip" />
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="260dp"
+       android:text="종숙"
+       android:textSize="15dip" />
+      
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="180dp"
+       android:layout_marginLeft="310dp"
+       android:text="종고모"
+       android:textSize="15dip" />
+     
+      <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="10dp"
+       android:text="진내재종"
+       android:textSize="15dip" />
+      
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="90dp"
+       android:text="고종"
+       android:textSize="15dip" />
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="90dp"
+       android:text="자매"
+       android:textSize="15dip" />
+     
+      <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="150dp"
+       android:text="나"
+       android:textSize="15dip" />
+      
+      <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="200dp"
+       android:text="형제"
+       android:textSize="15dip" />
+      
+      <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="230dp"
+       android:layout_marginLeft="260dp"
+       android:text="종"
+       android:textSize="15dip" />
+      
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="260dp"
+       android:text="재종"
+       android:textSize="15dip" />
+     
+     <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="260dp"
+       android:layout_marginLeft="310dp"
+       android:text="고재종"
+       android:textSize="15dip" />
+      
+      <Button
+       android:id="@+id/button5"
+       android:layout_width="60dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="340dp"
+       android:layout_marginLeft="5dp"
+       android:text="진내재종질"
+       android:textSize="14dip" />
+      
+       <Button
+       android:id="@+id/button5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="420dp"
+       android:layout_marginLeft="10dp"
+       android:text="진내상증손"
+       android:textSize="15dip" />
+</FrameLayout>
+

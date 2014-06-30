@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vip.myname.InfoScreen"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인 정보 동의" 
+        android:textSize="30dip" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"/>
+
+    <Button
+        android:id="@+id/button_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동의합니다."
+         android:textSize="30dip" 
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp" />
+
+</FrameLayout>
+
